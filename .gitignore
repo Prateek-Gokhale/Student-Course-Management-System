@@ -1,0 +1,30 @@
+# ─── Maven ────────────────────────────────────────────────────
+target/
+*.class
+
+# ─── IDE files ────────────────────────────────────────────────
+.idea/
+*.iml
+.vscode/
+*.eclipse
+.classpath
+.project
+.settings/
+
+# ─── Compiled output ──────────────────────────────────────────
+*.jar
+!target/scms.jar
+
+# ─── Sensitive config ─────────────────────────────────────────
+# Uncomment if you want to exclude db.properties from commits
+# (recommended for real projects with real passwords)
+# src/main/resources/db.properties
+
+# ─── OS files ─────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+*.swp
+
+# ─── Logs ─────────────────────────────────────────────────────
+*.log
+logs/
